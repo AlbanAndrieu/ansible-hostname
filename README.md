@@ -1,6 +1,6 @@
 ## hostname
 
-[![Travis CI](http://img.shields.io/travis/AlbanAndrieu/ansible-hostname.svg?style=flat)](http://travis-ci.org/AlbanAndrieu/ansible-hostname) [![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-hostname.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-hostname/tree/master)  [![Platforms](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](#)
+[![Travis CI](http://img.shields.io/travis/AlbanAndrieu/ansible-hostname.svg?style=flat)](http://travis-ci.org/AlbanAndrieu/ansible-hostname) [![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-hostname.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-hostname/tree/master) [![Donate](https://img.shields.io/gratipay/AlbanAndrieu.svg?style=flat)](https://www.gratipay.com/AlbanAndrieu)  [![Platforms](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](#)
 
 hostname described in a few paragraphs....
 
@@ -33,7 +33,7 @@ Describe how to use hostname...
 
 ### Feedback, bug-reports, requests, ...
 
-Are [welcome](https://github.com/AlbanAndrieu/ansible-hostname/issues>)!
+Are [welcome](https://github.com/AlbanAndrieu/ansible-hostname/issues)!
 
 ***
 
