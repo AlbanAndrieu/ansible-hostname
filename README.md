@@ -1,4 +1,4 @@
-## hostname
+## alban.andrieu.hostname
 
 [![Travis CI](http://img.shields.io/travis/AlbanAndrieu/ansible-hostname.svg?style=flat)](http://travis-ci.org/AlbanAndrieu/ansible-hostname) [![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-hostname.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-hostname/tree/master) [![Donate](https://img.shields.io/gratipay/AlbanAndrieu.svg?style=flat)](https://www.gratipay.com/AlbanAndrieu)  [![Platforms](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](#)
 
@@ -12,9 +12,7 @@ hostname described in a few paragraphs....
 List of default variables available in the inventory:
 
 ```yaml
-    ---
-    
-    hostname_enabled: yes                       # Enable module
+        hostname_enabled: yes                       # Enable module
     hostname_hostname: "{{ inventory_hostname }}" # Set hostname
     hostname_hostname_short: "{{ hostname_hostname.split('.')[:-1]|join('.') }}" # Set short hostname
 ```
@@ -27,7 +25,7 @@ Describe how to use hostname...
 
 ### Authors and license
 
-`hostname` role was written by:
+`alban.andrieu.hostname` role was written by:
 - [Alban Andrieu](fr.linkedin.com/in/nabla/) | [e-mail](mailto:alban.andrieu@free.fr) | [Twitter](https://twitter.com/AlbanAndrieu) | [GitHub](https://github.com/AlbanAndrieu)
 - License: [GPLv3](https://tldrlegal.com/license/gnu-general-public-license-v3-%28gpl-3%29)
 
