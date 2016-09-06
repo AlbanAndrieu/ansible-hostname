@@ -1,0 +1,26 @@
+
+ansigenome_info:
+  galaxy_id: ''
+  galaxy_user: 'alban.andrieu'
+  galaxy_name: 'hostname'
+
+  travis: True
+
+  authors:
+    - name:  'Alban Andrieu'
+      url: 'fr.linkedin.com/in/nabla/'
+      email: 'alban.andrieu@free.fr'
+      twitter: 'AlbanAndrieu'
+      github: 'AlbanAndrieu'
+
+  synopsis: |
+    Ensures that hostname is properly configured
+
+  synopsis: |
+    hostname described in a few paragraphs....
+
+  usage: |
+    Describe how to use hostname...
+
+  #custom: |
+  #  Any custom output you want after the usage section...
