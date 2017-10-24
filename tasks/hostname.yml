@@ -33,3 +33,16 @@
     line: "127.0.1.1{{'\t'}}{% if hostname_hostname_loopback is defined %}{{'\t'}}{{ hostname_hostname_loopback }}{% endif %}"
     state: present
   become: yes
+
+- name: Hostname | Update the hostname (pt. 5) - (/etc/hosts)
+  become: yes
+  lineinfile:
+    dest: /etc/hosts
+    line: "{{ item.line }}"
+    insertafter: EOF
+  with_items:
+#For docker  
+    - { regexp: '', line: '127.0.1.1 {{ hostname_hostname }} mydatabase myapache' }
+#For hardcoded servers    
+    - { regexp: '', line: '192.168.0.46 freenas' }
+    - { regexp: '', line: '192.168.0.254 freebox' }
