@@ -1,42 +1,36 @@
 ---
 dependencies: []
 
-galaxy_info:
-  author: Alban Andrieu
-  description: 'hostname described in 1 sentence...'
-  company: Nabla
-  license: Apache
-  min_ansible_version: '2.3.1.0'
-  platforms:
-    - name: Ubuntu
-      versions:
-        - precise
-        - trusty
-    - name: Debian
-      versions:
-        - wheezy
-        - jessie
-  categories: []
-
 ansigenome_info:
   galaxy_id: ''
+  galaxy_url: 'https://galaxy.ansible.com/alban.andrieu/hostname/'
   galaxy_user: 'alban.andrieu'
   galaxy_name: 'hostname'
+  galaxy_docker_name: 'ansible-hostname'
 
-  travis: True
+  travis: true
 
   authors:
-    - name:  'Alban Andrieu'
+    - name: 'Alban Andrieu'
       url: 'fr.linkedin.com/in/nabla/'
       email: 'alban.andrieu@free.fr'
       twitter: 'AlbanAndrieu'
       github: 'AlbanAndrieu'
 
-  synopsis: |
-    Ensures that hostname is properly configured
+  description: A role for installing css
+  company: Nabla
+  license: Apache
+  min_ansible_version: 2.7.8
+  
+  platforms:
+    - name: Ubuntu
+      versions:
+      - all
+  categories:
+    - development
 
   synopsis: |
-    hostname described in a few paragraphs....
+    Ensures that hostname is properly configured
 
   usage: |
     Describe how to use hostname...
